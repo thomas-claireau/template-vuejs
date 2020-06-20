@@ -1,0 +1,33 @@
+{
+	"name": "vuejs-template-coming-soon",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build"
+	},
+	"dependencies": {
+		"babel-polyfill": "^6.26.0",
+		"core-js": "^3.6.5",
+		"node-sass": "^4.14.1",
+		"vue": "^2.6.11",
+		"vue-svg-loader": "^0.16.0"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.4.0",
+		"@vue/cli-service": "~4.4.0",
+		"sass-loader": "^8.0.2",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"browsers_list": [
+		"> 1%",
+		"last 2 Chrome major versions",
+		"last 2 Firefox major versions",
+		"last 2 Edge major versions",
+		"last 2 Safari major versions",
+		"ie 11",
+		"last 3 Android major versions",
+		"last 3 ChromeAndroid major versions",
+		"last 2 iOS major versions"
+	]
+}
